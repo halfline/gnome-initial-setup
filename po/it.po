@@ -111,10 +111,6 @@ msgid "Domain Administrator Login"
 msgstr "Accesso amministratore di dominio"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be enrolled in "
-#| "the domain. Please have your network administrator type their domain "
-#| "password here, and choose a unique computer name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
@@ -154,7 +150,6 @@ msgid "_Full Name"
 msgstr "_Nome completo"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Setup _Enterprise Login"
 msgid "Set Up _Enterprise Login"
 msgstr "Impostare un accesso a_ziendale"
 
@@ -192,27 +187,19 @@ msgstr "Impossibile connettersi al dominio %s: %s"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "Un utente con il nome utente «%s» esiste già."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "Il nome utente è troppo lungo."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "Il nome utente non può iniziare con «-»."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
@@ -339,7 +326,6 @@ msgid "No wireless available"
 msgstr "Nessuna rete senza fili disponibile"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:144
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "Le password non corrispondono."
 
@@ -450,9 +436,6 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "Provare ad aggiungere più lettere, numeri e simboli."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr "Mescolare maiuscole e minuscole e usare uno o due numeri."
@@ -467,31 +450,26 @@ msgstr ""
 "ancora più forte."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "Forza: debole"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "Forza: bassa"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "Forza: media"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "Forza: buona"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "Forza: ottima"

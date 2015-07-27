@@ -81,8 +81,7 @@ msgid ""
 "Enterprise login allows an existing centrally managed user account to be "
 "used on this device."
 msgstr ""
-"এন্টাৰপ্ৰাইজ লগিনে এটা স্থায়ী কেন্দ্ৰীয়ভাৱে ব্যৱস্থিত ব্যৱহাৰকাৰী একাওন্টক এই "
-"ডিভাইচত "
+"এন্টাৰপ্ৰাইজ লগিনে এটা স্থায়ী কেন্দ্ৰীয়ভাৱে ব্যৱস্থিত ব্যৱহাৰকাৰী একাওন্টক এই ডিভাইচত "
 "ব্যৱহাৰ কৰাৰ অনুমতি দিয়ে।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:3
@@ -112,23 +111,14 @@ msgid "Domain Administrator Login"
 msgstr "ডমেইন প্ৰশাসকৰ লগিন"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be\n"
-#| "                enrolled in the domain. Please have your network "
-#| "administrator\n"
-#| "                type their domain password here, and choose a unique "
-#| "computer\n"
-#| "                name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
 "here, and choose a unique computer name for your computer."
 msgstr ""
-"এন্টাৰপ্ৰাইজ লগিনসমূহ ব্যৱহাৰ কৰিবলে, এই কমপিউটাৰক এটা ডমেইনত এনৰোল কৰিব "
-"লাগিব। "
+"এন্টাৰপ্ৰাইজ লগিনসমূহ ব্যৱহাৰ কৰিবলে, এই কমপিউটাৰক এটা ডমেইনত এনৰোল কৰিব লাগিব। "
 "অনুগ্ৰহ কৰি আপোনাৰ নেটৱৰ্ক প্ৰশাসকক তেওৰ ডমেইন পাছৱৰ্ড ইয়াত টাইপ কৰিব দি, "
-"আপোনাৰ"
-"কমপিউটাৰৰ বাবে এটা অবিকল্প নাম বাছক।"
+"আপোনাৰকমপিউটাৰৰ বাবে এটা অবিকল্প নাম বাছক।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:10
 msgid "_Computer"
@@ -160,7 +150,6 @@ msgid "_Full Name"
 msgstr "সম্পূৰ্ণ নাম (_F)"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Enterprise Login"
 msgid "Set Up _Enterprise Login"
 msgstr "এন্টাৰপ্ৰাইজ লগিন সংস্থাপন কৰক (_E)"
 
@@ -198,39 +187,30 @@ msgstr "%s ডমেইনলে সংযোগ কৰিব নোৱাৰি
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "'%s' ব্যৱহাৰকাৰীনামৰ সৈতে এজন ব্যৱহাৰকাৰী ইতিমধ্যে অস্তিত্ববান।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "ব্যৱহাৰকাৰীনাম অতি দীঘল।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "ব্যৱহাৰকাৰীনাম '-' ৰ সৈতে আৰম্ভ হব নোৱাৰিব।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
 msgstr ""
-"ব্যৱহাৰকাৰীনামত কেৱল a-z ডিজিটৰ পৰা তলৰ আৰু ওপৰ ফলা আখৰ আৰু আখৰসমূহ '.', '-' "
-"আৰু '_' ৰ পৰা যিকোনো আখৰ থাকিব পাৰিব।"
+"ব্যৱহাৰকাৰীনামত কেৱল a-z ডিজিটৰ পৰা তলৰ আৰু ওপৰ ফলা আখৰ আৰু আখৰসমূহ '.', '-' আৰু "
+"'_' ৰ পৰা যিকোনো আখৰ থাকিব পাৰিব।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:259
 msgid "This will be used to name your home folder and can't be changed."
 msgstr ""
-"ইয়াক আপোনাৰ ঘৰ ফোল্ডাৰ নামকৰণৰ বাবে ব্যৱহাৰ কৰা হব আৰু ইয়াক পৰিবৰ্তন কৰিব "
-"নোৱাৰি।"
+"ইয়াক আপোনাৰ ঘৰ ফোল্ডাৰ নামকৰণৰ বাবে ব্যৱহাৰ কৰা হব আৰু ইয়াক পৰিবৰ্তন কৰিব নোৱাৰি।"
 
 #: ../gnome-initial-setup/pages/eulas/gis-eula-page.c:301
 #: ../gnome-initial-setup/pages/eulas/gis-eula-page.ui.h:1
@@ -241,8 +221,7 @@ msgstr "অনুজ্ঞা চুক্তিসমূহ"
 msgid ""
 "I have _agreed to the terms and conditions in this end user license "
 "agreement."
-msgstr ""
-"মই এই অন্ত ব্যৱহাৰকাৰী অনুজ্ঞা চুক্তিৰ চুক্তি আৰু চৰ্তবোৰ মানি লৈছো (_a)।"
+msgstr "মই এই অন্ত ব্যৱহাৰকাৰী অনুজ্ঞা চুক্তিৰ চুক্তি আৰু চৰ্তবোৰ মানি লৈছো (_a)।"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.c:87
 msgid "Add Account"
@@ -271,8 +250,7 @@ msgstr ""
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:3
 msgid "You can review your online accounts (and add others) after setup."
 msgstr ""
-"সংস্থাপনৰ পিছত আপুনি আপোনাৰ অনলাইন একাওন্টসমূহ পুনৰদৰ্শন (আৰু অন্যবোৰ যোগ) "
-"কৰিব "
+"সংস্থাপনৰ পিছত আপুনি আপোনাৰ অনলাইন একাওন্টসমূহ পুনৰদৰ্শন (আৰু অন্যবোৰ যোগ) কৰিব "
 "পাৰিব।"
 
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:235
@@ -337,17 +315,14 @@ msgid ""
 "also necessary for enterprise login accounts."
 msgstr ""
 "ইন্টাৰনেটৰ সৈতে সংযোগ কৰিলে আপুনি সময় সংহতি কৰিব পাৰিব, আপোনাৰ বিৱৰণসমূহ যোগ "
-"কৰিব পাৰিব, আৰু আপোনাৰ ইমেইল, কেলেন্ডাৰ, আৰু পৰিচয়সমূহ অভিগম কৰিবলৈ সামৰ্থবান "
-"হব। "
+"কৰিব পাৰিব, আৰু আপোনাৰ ইমেইল, কেলেন্ডাৰ, আৰু পৰিচয়সমূহ অভিগম কৰিবলৈ সামৰ্থবান হব। "
 "ই লগতে এন্টাৰপ্ৰাইজ লগিন একাওন্টসমূহৰ বাবে প্ৰয়োজনীয়।"
 
 #: ../gnome-initial-setup/pages/network/gis-network-page.ui.h:3
-#| msgid "Network is not available."
 msgid "No wireless available"
 msgstr "কোনো বেতাঁৰ উপস্থিত নাই"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:135
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "পাছৱৰ্ডসমূহ মিল নাখায়।"
 
@@ -444,8 +419,8 @@ msgid ""
 "Try to avoid repeating the same type of character: you need to mix up "
 "letters, numbers and punctuation."
 msgstr ""
-"একেধৰণ আখৰ পুনৰাবৃত্তি নকৰাৰ চেষ্টা কৰিব: আপুনি আখৰ, সংখ্যা আৰু বিৰাম চিহ্ন "
-"সংমিশ্ৰণ কৰিব লাগিব।"
+"একেধৰণ আখৰ পুনৰাবৃত্তি নকৰাৰ চেষ্টা কৰিব: আপুনি আখৰ, সংখ্যা আৰু বিৰাম চিহ্ন সংমিশ্ৰণ "
+"কৰিব লাগিব।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:113
 msgctxt "Password hint"
@@ -458,9 +433,6 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "অধিক আখৰ, সংখ্যা আৰু চিহ্ন যোগ কৰাৰ চেষ্টা কৰক।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr "ওপৰফলা আৰু তলৰফলা সংমিশ্ৰণ কৰক আৰু এটা বা দুটা সংখ্যা ব্যৱহাৰ কৰক।"
@@ -471,35 +443,29 @@ msgid ""
 "Good password! Adding more letters, numbers and punctuation will make it "
 "stronger."
 msgstr ""
-"ভাল পাছৱৰ্ড! অধিক আখৰ, সংখ্যা আৰু বিৰাম চিহ্ন যোগ কৰিলে ই আৰু অধিক শক্তিশালী "
-"হব।"
+"ভাল পাছৱৰ্ড! অধিক আখৰ, সংখ্যা আৰু বিৰাম চিহ্ন যোগ কৰিলে ই আৰু অধিক শক্তিশালী হব।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "শক্তি: দূৰ্বল"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "শক্তি: কম"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "শক্তি: মধ্যম"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "শক্তি: ভাল"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "শক্তি: উচ্চ"
@@ -547,9 +513,6 @@ msgstr "আপুনি প্ৰস্তুত!"
 
 #: ../gnome-initial-setup/pages/timezone/gis-timezone-page.c:183
 #, c-format
-#| msgid ""
-#| "We think that your time zone is <b>%s</b>. Press Next to continue or "
-#| "search for a city to manually set the time zone."
 msgid ""
 "We think that your time zone is %s. Press Next to continue or search for a "
 "city to manually set the time zone."
@@ -575,7 +538,6 @@ msgstr "এটা ওচৰৰ নগৰৰ বাবে সন্ধান ক�
 #~ msgid "_Confirm password"
 #~ msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 
-#~| msgid "No password"
 #~ msgid "Choose a _password"
 #~ msgstr "এটা পাছৱৰ্ড বাছক (_p)"
 
@@ -624,7 +586,6 @@ msgstr "এটা ওচৰৰ নগৰৰ বাবে সন্ধান ক�
 #~ msgid "Add an Input Source"
 #~ msgstr "এটা ইনপুট উৎস যোগ কৰক"
 
-#~| msgid "Other"
 #~ msgctxt "Online Account"
 #~ msgid "Other"
 #~ msgstr "অন্য"
@@ -665,7 +626,6 @@ msgstr "এটা ওচৰৰ নগৰৰ বাবে সন্ধান ক�
 #~ msgid "Input Sources"
 #~ msgstr "ইনপুট উৎসসমূহ"
 
-#~| msgid "Show Keyboard Layout"
 #~ msgid "Select keyboard layouts"
 #~ msgstr "কিবৰ্ড বিন্যাসসমূহ বাছক"
 

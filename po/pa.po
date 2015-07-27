@@ -79,9 +79,7 @@ msgstr "ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ"
 msgid ""
 "Enterprise login allows an existing centrally managed user account to be "
 "used on this device."
-msgstr ""
-"ਇੰਟਰਪਰਾਈਜ਼ ਲਾਗਇਨ ਮੌਜੂਦਾ ਕੇਂਦਰੀਕ੍ਰਿਤ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਨੂੰ ਇਹ ਜੰਤਰ ਉੱਤੇ ਵਰਤਣ ਲਈ ਸਹਾਇਕ "
-"ਹੈ।"
+msgstr "ਇੰਟਰਪਰਾਈਜ਼ ਲਾਗਇਨ ਮੌਜੂਦਾ ਕੇਂਦਰੀਕ੍ਰਿਤ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਨੂੰ ਇਹ ਜੰਤਰ ਉੱਤੇ ਵਰਤਣ ਲਈ ਸਹਾਇਕ ਹੈ।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:3
 msgid "_Domain"
@@ -110,17 +108,12 @@ msgid "Domain Administrator Login"
 msgstr "ਡੋਮੇਨ ਪਰਸ਼ਾਸ਼ਕੀ ਲਾਗਇਨ"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be enrolled in "
-#| "the domain. Please have your network administrator type their domain "
-#| "password here, and choose a unique computer name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
 "here, and choose a unique computer name for your computer."
 msgstr ""
-"ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ ਵਰਤਣ ਲਈ, ਉਹ ਕੰਪਿਊਟਰ ਨੂੰ ਡੋਮੇਨ ਵਰਤਣ ਦੀ ਲੋੜ ਹੈ। ਆਪਣੇ ਨੈੱਟਵਰਕ "
-"ਪਰਸ਼ਾਸ਼ਕ ਕਿਸਮ "
+"ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ ਵਰਤਣ ਲਈ, ਉਹ ਕੰਪਿਊਟਰ ਨੂੰ ਡੋਮੇਨ ਵਰਤਣ ਦੀ ਲੋੜ ਹੈ। ਆਪਣੇ ਨੈੱਟਵਰਕ ਪਰਸ਼ਾਸ਼ਕ ਕਿਸਮ "
 "ਲਈ ਉਹਨਾਂ ਦਾ ਡੋਮੇਨ ਪਾਸਵਰਡ ਇੱਥੇ ਦਿਉ ਅਤੇ ਆਪਣੇ ਕੰਪਿਊਟਰ ਲਈ ਵਿਲੱਖਣ ਕੰਪਿਊਟਰ ਨਾਂ ਚੁਣੋ।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:10
@@ -153,7 +146,6 @@ msgid "_Full Name"
 msgstr "ਪੂਰਾ ਨਾਂ(_F)"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Enterprise Login"
 msgid "Set Up _Enterprise Login"
 msgstr "ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ ਸੈਟਅੱਪ(_E)"
 
@@ -191,33 +183,24 @@ msgstr "%s ਡੋਮੇਨ ਨਾਲ ਕੁਨੈਕਟ ਨਹੀਂ ਕੀਤ�
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "'%s' ਯੂਜ਼ਰ ਨਾਂ ਨਾਲ ਯੂਜ਼ਰ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "ਯੂਜ਼ਰ ਨਾਂ ਬਹੁਤ ਲੰਮਾ ਹੈ।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "ਯੂਜ਼ਰ ਨਾਂ '-' ਨਾਲ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
 msgstr ""
-"ਯੂਜ਼ਰ ਨਾਂ ਵਿੱਚ ਕੇਵਲ ਅੰਗਰੇਜ਼ੀ ਦੇ ਵੱਡੇ ਤੇ ਛੋਟੇ ਅੱਖਰ (a-z), ਅੰਕ, '.', '-' ਅਤੇ "
-"'_' ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਅੱਖਰ "
+"ਯੂਜ਼ਰ ਨਾਂ ਵਿੱਚ ਕੇਵਲ ਅੰਗਰੇਜ਼ੀ ਦੇ ਵੱਡੇ ਤੇ ਛੋਟੇ ਅੱਖਰ (a-z), ਅੰਕ, '.', '-' ਅਤੇ '_' ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਅੱਖਰ "
 "ਹੋ ਸਕਦੇ ਹਨ।"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:259
@@ -256,15 +239,12 @@ msgid ""
 "Connecting your accounts will allow you to easily access your email, online "
 "calendar, contacts, documents and photos."
 msgstr ""
-"ਅਕਾਊਂਟ ਜੋੜਨ ਨਾਲ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਆਨਲਾਈਨ ਫੋਟੋ, ਸੰਪਰਕ, ਮੇਲ ਅਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨਾਲ ਸੌਖੀ "
-"ਤਰ੍ਹਾਂ ਕੁਨੈਕਟ ਕਰਨ "
+"ਅਕਾਊਂਟ ਜੋੜਨ ਨਾਲ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਆਨਲਾਈਨ ਫੋਟੋ, ਸੰਪਰਕ, ਮੇਲ ਅਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨਾਲ ਸੌਖੀ ਤਰ੍ਹਾਂ ਕੁਨੈਕਟ ਕਰਨ "
 "ਲਈ ਮੱਦਦ ਮਿਲੇਗੀ।"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:3
 msgid "You can review your online accounts (and add others) after setup."
-msgstr ""
-"ਤੁਸੀਂ ਸੈੱਟਅੱਪ ਦੇ ਬਾਅਦ ਆਪਣੇ ਆਨਲਾਈਨ ਅਕਾਊਂਟ ਦੀ ਪੜਤਾਲ ਕਰ ਸਕਦੇ ਹੋ (ਅਤੇ ਹੋਰ ਜੋੜ "
-"ਸਕਦੇ ਹੋ)।"
+msgstr "ਤੁਸੀਂ ਸੈੱਟਅੱਪ ਦੇ ਬਾਅਦ ਆਪਣੇ ਆਨਲਾਈਨ ਅਕਾਊਂਟ ਦੀ ਪੜਤਾਲ ਕਰ ਸਕਦੇ ਹੋ (ਅਤੇ ਹੋਰ ਜੋੜ ਸਕਦੇ ਹੋ)।"
 
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:234
 msgid "Preview"
@@ -327,17 +307,14 @@ msgid ""
 "details, and enable you to access your email, calendar, and contacts. It is "
 "also necessary for enterprise login accounts."
 msgstr ""
-"ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਸਮਾਂ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ, ਆਪਣਾ ਵੇਰਵਾ ਜੋੜ ਸਕਦੇ "
-"ਹੋ ਅਟੇ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ "
-"ਈਮੇਲ, ਕੈਲੰਡਰ ਅਤੇ ਸੰਪਰਕਾਂ ਲਈ ਪਹੁੰਚ ਮਿਲ ਸਕਦੀ ਹੈ। ਇਹ ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ ਅਕਾਊਂਟ ਲਈ "
-"ਵੀ ਜ਼ਰੂਰੀ ਹੈ।"
+"ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਸਮਾਂ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ, ਆਪਣਾ ਵੇਰਵਾ ਜੋੜ ਸਕਦੇ ਹੋ ਅਟੇ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ "
+"ਈਮੇਲ, ਕੈਲੰਡਰ ਅਤੇ ਸੰਪਰਕਾਂ ਲਈ ਪਹੁੰਚ ਮਿਲ ਸਕਦੀ ਹੈ। ਇਹ ਇੰਟਰਪ੍ਰਾਈਜ਼ ਲਾਗਇਨ ਅਕਾਊਂਟ ਲਈ ਵੀ ਜ਼ਰੂਰੀ ਹੈ।"
 
 #: ../gnome-initial-setup/pages/network/gis-network-page.ui.h:3
 msgid "No wireless available"
 msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਨਹੀਂ"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:144
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ।"
 
@@ -434,8 +411,7 @@ msgid ""
 "Try to avoid repeating the same type of character: you need to mix up "
 "letters, numbers and punctuation."
 msgstr ""
-"ਇੱਕੋ ਕਿਸਮ ਦੇ ਅੱਖਰ ਮੁੜ-ਵਰਤਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ: ਤੁਸੀਂ ਅੱਖਰਾਂ, ਅੰਕਾਂ ਅਤੇ ਵਿਰਾਮ "
-"ਚਿੰਨ੍ਹਾਂ ਨੂੰ ਮਿਲ ਸਕਦੇ ਹੋ।"
+"ਇੱਕੋ ਕਿਸਮ ਦੇ ਅੱਖਰ ਮੁੜ-ਵਰਤਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ: ਤੁਸੀਂ ਅੱਖਰਾਂ, ਅੰਕਾਂ ਅਤੇ ਵਿਰਾਮ ਚਿੰਨ੍ਹਾਂ ਨੂੰ ਮਿਲ ਸਕਦੇ ਹੋ।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:113
 msgctxt "Password hint"
@@ -448,9 +424,6 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "ਹੋਰ ਅੱਖਰ, ਅੰਕ ਤੇ ਨਿਸ਼ਾਨ ਵਰਤ ਕੇ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr "ਵੱਡੇ ਤੇ ਛੋਟੇ ਅੱਖਰ ਮਿਲਾ ਕੇ ਅਤੇ ਇੱਕ ਜਾਂ ਦੋ ਨੰਬਰ ਵਰਤੋਂ।"
@@ -460,35 +433,29 @@ msgctxt "Password hint"
 msgid ""
 "Good password! Adding more letters, numbers and punctuation will make it "
 "stronger."
-msgstr ""
-"ਚੰਗਾ ਪਾਸਵਰਡ! ਹੋਰ ਅੱਖਰ, ਨੰਬਰ ਤੇ ਵਿਰਾਮ ਚਿੰਨ੍ਹ ਜੋੜਨ ਨਾਲ ਇਹ ਹੋਰ ਵੀ ਮਜ਼ਬੂਤ ਬਣੇਗਾ।"
+msgstr "ਚੰਗਾ ਪਾਸਵਰਡ! ਹੋਰ ਅੱਖਰ, ਨੰਬਰ ਤੇ ਵਿਰਾਮ ਚਿੰਨ੍ਹ ਜੋੜਨ ਨਾਲ ਇਹ ਹੋਰ ਵੀ ਮਜ਼ਬੂਤ ਬਣੇਗਾ।"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "ਮਜ਼ਬੂਤੀ: ਹਲਕਾ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "ਮਜ਼ਬੂਤੀ: ਘੱਟ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "ਮਜ਼ਬੂਤੀ: ਮੱਧਮ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "ਮਜ਼ਬੂਤੀ: ਚੰਗੀ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "ਮਜ਼ਬੂਤੀ: ਉੱਚ"
@@ -540,8 +507,7 @@ msgid ""
 "We think that your time zone is %s. Press Next to continue or search for a "
 "city to manually set the time zone."
 msgstr ""
-"ਸਾਨੂੰ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਸਮਾਂ-ਖੇਤਰ %s ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਅੱਗੇ ਦਬਾਉ ਜਾਂ "
-"ਸਮਾਂ-ਖੇਤਰ ਖੁਦ ਤਹਿ ਕਰਨ "
+"ਸਾਨੂੰ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਸਮਾਂ-ਖੇਤਰ %s ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਅੱਗੇ ਦਬਾਉ ਜਾਂ ਸਮਾਂ-ਖੇਤਰ ਖੁਦ ਤਹਿ ਕਰਨ "
 "ਲਈ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ।"
 
 #: ../gnome-initial-setup/pages/timezone/gis-timezone-page.c:489
@@ -601,7 +567,6 @@ msgstr "ਆਪਣੇ ਨੇੜਲਾ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ ਜ
 #~ msgid "Create an Enterprise Account"
 #~ msgstr "ਇੰਟਰਪਰਾਈਜ਼ ਅਕਾਊਂਟ ਬਣਾਓ"
 
-#~| msgid "Other"
 #~ msgctxt "Online Account"
 #~ msgid "Other"
 #~ msgstr "ਹੋਰ"
@@ -709,7 +674,6 @@ msgstr "ਆਪਣੇ ਨੇੜਲਾ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ ਜ
 #~ msgid "Unspecified"
 #~ msgstr "ਦਿੱਤਾ ਨਹੀਂ"
 
-#~| msgid "_Local Account"
 #~ msgid "_Use Local Login"
 #~ msgstr "ਲੋਕਲ ਅਕਾਊਂਟ ਵਰਤੋਂ(_L)"
 
@@ -746,7 +710,6 @@ msgstr "ਆਪਣੇ ਨੇੜਲਾ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ ਜ
 #~ msgid "Choose How to Login"
 #~ msgstr "ਲਾਗਇਨ ਕਰਨ ਦੀ ਚੋਣ ਕਰੋ"
 
-#~| msgid "Login"
 #~ msgid "_Login Name"
 #~ msgstr "ਲਾਗਇਨ ਨਾਂ(_L)"
 

@@ -108,10 +108,6 @@ msgid "Domain Administrator Login"
 msgstr "網域系統管理員登入"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be enrolled in "
-#| "the domain. Please have your network administrator type their domain "
-#| "password here, and choose a unique computer name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
@@ -150,7 +146,6 @@ msgid "_Full Name"
 msgstr "全名(_F)"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Enterprise Login"
 msgid "Set Up _Enterprise Login"
 msgstr "設置企業登入(_E)"
 
@@ -188,27 +183,19 @@ msgstr "無法連接到 %s 網域：%s"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "以「%s」為名的使用者已經存在。"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "使用者名稱太長。"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "使用者名稱不能以「-」字元開頭。"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
@@ -328,7 +315,6 @@ msgid "No wireless available"
 msgstr "有線網路無法使用"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:135
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "密碼不相符合。"
 
@@ -438,9 +424,6 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "試著加入更多英文字母、數字，以及標點符號。"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr "試著混用英文大小寫並使用一、二個數字。"
@@ -453,31 +436,26 @@ msgid ""
 msgstr "好密瑪！若能加入更多字母、數字、半形標點符號會更牢固！"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "強度：脆弱"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "強度：低"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "強度：中"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "強度：良好"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "強度：高"
@@ -549,7 +527,6 @@ msgstr "請搜尋鄰近的城市"
 #~ msgid "_Confirm password"
 #~ msgstr "確認密碼(_C)"
 
-#~| msgid "No password"
 #~ msgid "Choose a _password"
 #~ msgstr "設定密碼(_P)"
 

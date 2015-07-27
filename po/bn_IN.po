@@ -1,7 +1,7 @@
 # Bengali (India) translation for gnome-initial-setup.
 # Copyright (C) 2012 gnome-initial-setup's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-initial-setup package.
-# 
+#
 # Sayak Sarkar <sayak.bugsmith@gmail.com>, 2012.
 # sray <sray@redhat.com>, 2013. #zanata
 # sray <sray@redhat.com>, 2014. #zanata
@@ -11,13 +11,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "initial-setup&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-11-20 00:08+0000\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2014-02-28 03:06-0500\n"
 "Last-Translator: sray <sray@redhat.com>\n"
 "Language-Team: Bengali (India) <anubad@lists.ankur.org.in>\n"
 "Language: bn-IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Zanata 3.3.2\n"
 
@@ -97,8 +97,7 @@ msgstr "ব্যবহারকারীর নাম (_U)"
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:4
 msgid "This will be used to name your home folder and can't be changed."
 msgstr ""
-"অাপনার হোম ফোল্ডারের নামকরণ করতে এর ব্যবহার করা হবে এবং পরিবর্তন করা যাবে "
-"না।"
+"অাপনার হোম ফোল্ডারের নামকরণ করতে এর ব্যবহার করা হবে এবং পরিবর্তন করা যাবে না।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:5
 msgid "_Password"
@@ -113,8 +112,8 @@ msgid ""
 "Try to use at least 8 different characters. Mix upper and lower case and use "
 "a number or two."
 msgstr ""
-"অন্ততপক্ষে ৮টি পৃথক অক্ষর ব্যবহার করার চেষ্টা করুন। বড় হাতের এবং ছোট হাতের "
-"অক্ষর এবং একটি বা দুইটি সংখ্যা মিলিয়ে মিশিয়ে ব্যবহার কারুন।"
+"অন্ততপক্ষে ৮টি পৃথক অক্ষর ব্যবহার করার চেষ্টা করুন। বড় হাতের এবং ছোট হাতের অক্ষর এবং "
+"একটি বা দুইটি সংখ্যা মিলিয়ে মিশিয়ে ব্যবহার কারুন।"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:8
 msgid "page 1"
@@ -320,8 +319,7 @@ msgstr "ইনপুট সোর্সগুলি নির্বাচন ক
 
 #: ../gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui.h:2
 msgid "Login settings are used by all users when logging into the system"
-msgstr ""
-"সিস্টেমে লগিন করার সময়ে সকল ব্যবহারকারীর দ্বারা লগিন সেটিং ব্যবহার করা হয়"
+msgstr "সিস্টেমে লগিন করার সময়ে সকল ব্যবহারকারীর দ্বারা লগিন সেটিং ব্যবহার করা হয়"
 
 #: ../gnome-initial-setup/pages/keyboard/input-chooser.ui.h:1
 msgid "Add an Input Source"

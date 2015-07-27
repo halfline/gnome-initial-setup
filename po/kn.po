@@ -45,7 +45,6 @@ msgid "_Cancel"
 msgstr "ರದ್ದುಗೊಳಿಸು (_C)"
 
 #: ../gnome-initial-setup/gnome-initial-setup.c:194
-#| msgid "Force new user mode"
 msgid "Force existing user mode"
 msgstr "ಈಗಿರುವ ಬಳಕೆದಾರ ಕ್ರಮದಿಂದ ನಿರ್ಗಮಿಸಲು ಒತ್ತಾಯಿಸು"
 
@@ -83,8 +82,8 @@ msgid ""
 "Enterprise login allows an existing centrally managed user account to be "
 "used on this device."
 msgstr ""
-"ಎಂಟರ್‌ಪ್ರೈಸ್ ಲಾಗಿನ್ ಬಳಸಿಕೊಂಡು ಈಗಿರುವ ಕೇಂದ್ರೀಕೃತ ವ್ಯವಸ್ಥೆಯಿಂದ "
-"ನಿರ್ವಹಿಸಲಾಗುತ್ತಿರುವ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಈ ಸಾಧನದಲ್ಲಿ ಉಪಯೋಗಿಸಬಹುದಾಗಿದೆ."
+"ಎಂಟರ್‌ಪ್ರೈಸ್ ಲಾಗಿನ್ ಬಳಸಿಕೊಂಡು ಈಗಿರುವ ಕೇಂದ್ರೀಕೃತ ವ್ಯವಸ್ಥೆಯಿಂದ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿರುವ "
+"ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಈ ಸಾಧನದಲ್ಲಿ ಉಪಯೋಗಿಸಬಹುದಾಗಿದೆ."
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:3
 msgid "_Domain"
@@ -113,19 +112,14 @@ msgid "Domain Administrator Login"
 msgstr "ಡೊಮೇನ್ ವ್ಯವಸ್ಥಾಪಕ ಪ್ರವೇಶ"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be\n"
-#| "enrolled in the domain. Please have your network administrator\n"
-#| "type their domain password here, and choose a unique computer\n"
-#| "name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
 "here, and choose a unique computer name for your computer."
 msgstr ""
-"ಎಂಟರ್‌ಪ್ರೈಸ್ ಪ್ರವೇಶವನ್ನು ಬಳಸಲು, ಈ ಗಣಕವನ್ನು ಡೊಮೇನ್‌ನಲ್ಲಿ ದಾಖಲಿಸಬೇಕು ದಯವಿಟ್ಟು "
-"ನಿಮ್ಮ ಜಾಲಬಂಧ ವ್ಯವಸ್ಥಾಪಕರು ತಮ್ಮ ಡೊಮೇನ್ ಗುಪ್ತಪದವನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಲು ಸೂಚಿಸಿ, "
-"ಮತ್ತು ನಿಮ್ಮ ಗಣಕಕ್ಕಾಗಿ ವಿಶಿಷ್ಟವಾದ ಹೆಸರನ್ನು ಆರಿಸಿ."
+"ಎಂಟರ್‌ಪ್ರೈಸ್ ಪ್ರವೇಶವನ್ನು ಬಳಸಲು, ಈ ಗಣಕವನ್ನು ಡೊಮೇನ್‌ನಲ್ಲಿ ದಾಖಲಿಸಬೇಕು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಜಾಲಬಂಧ "
+"ವ್ಯವಸ್ಥಾಪಕರು ತಮ್ಮ ಡೊಮೇನ್ ಗುಪ್ತಪದವನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಲು ಸೂಚಿಸಿ, ಮತ್ತು ನಿಮ್ಮ ಗಣಕಕ್ಕಾಗಿ "
+"ವಿಶಿಷ್ಟವಾದ ಹೆಸರನ್ನು ಆರಿಸಿ."
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:10
 msgid "_Computer"
@@ -157,7 +151,6 @@ msgid "_Full Name"
 msgstr "ಪೂರ್ಣ ಹೆಸರು (_F)"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Create an Enterprise Account"
 msgid "Set Up _Enterprise Login"
 msgstr "ಒಂದು ಎಂಟರ್‌ಪ್ರೈಸ್ ಲಾಗಿನ್ ಅನ್ನು ರಚಿಸು (_E)"
 
@@ -195,33 +188,25 @@ msgstr "%s ಡೊಮೇನ್‌ನೊಂದಿಗೆ ಸಂಪರ್ಕಸಾ�
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "'%s' ಎಂಬ ಹೆಸರಿನ ಒಬ್ಬ ಬಳಕೆದಾರ ಈಗಾಗಲೆ ಇದ್ದಾರೆ."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಬಹಳ ಉದ್ದವಾಗಿದೆ."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "ಬಳಕೆದಾರ ಹೆಸರು '-' ಇಂದ ಆರಂಭಗೊಳ್ಳುವಂತಿಲ್ಲ"
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
 msgstr ""
-"ಬಳಕೆದಾರ ಹೆಸರು a-z ಇಂದ ಲೋವರ್ ಕೇಸ್ ಮತ್ತು ಅಪ್ಪರ್‌ ಕೇಸ್ ಅಕ್ಷರಗಳು, ಅಂಕಿಗಳು '.', "
-"'-' ಮತ್ತು '_' ನಲ್ಲಿ ಯಾವುದೆ ಚಿಹ್ನೆಯನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬೇಕು."
+"ಬಳಕೆದಾರ ಹೆಸರು a-z ಇಂದ ಲೋವರ್ ಕೇಸ್ ಮತ್ತು ಅಪ್ಪರ್‌ ಕೇಸ್ ಅಕ್ಷರಗಳು, ಅಂಕಿಗಳು '.', '-' ಮತ್ತು "
+"'_' ನಲ್ಲಿ ಯಾವುದೆ ಚಿಹ್ನೆಯನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬೇಕು."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:259
 msgid "This will be used to name your home folder and can't be changed."
@@ -239,15 +224,13 @@ msgid ""
 "I have _agreed to the terms and conditions in this end user license "
 "agreement."
 msgstr ""
-"ನಾನು ಈ ಬಳಕೆದಾರ ಪರವಾನಗಿ ಒಪ್ಪಂದದ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಒಪ್ಪಿಕೊಂಡಿದ್ದೇನೆ "
-"(_a)."
+"ನಾನು ಈ ಬಳಕೆದಾರ ಪರವಾನಗಿ ಒಪ್ಪಂದದ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಒಪ್ಪಿಕೊಂಡಿದ್ದೇನೆ (_a)."
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.c:87
 msgid "Add Account"
 msgstr "ಖಾತೆಯನ್ನು ಸೇರಿಸಿ"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.c:90
-#| msgid "_Cancel"
 msgid "Cancel"
 msgstr "ರದ್ದುಗೊಳಿಸು"
 
@@ -256,14 +239,10 @@ msgid "Online Accounts"
 msgstr "ಆನ್‌ಲೈನ್‌ ಖಾತೆಗಳು"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:1
-#| msgid "Online Accounts"
 msgid "Connect Your Online Accounts"
 msgstr "ನಿಮ್ಮ ಆನ್‌ಲೈನ್‌ ಖಾತೆಗಳನ್ನು ಸಂಪರ್ಕಜೋಡಿಸಿ"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:2
-#| msgid ""
-#| "Adding accounts will allow you to transparently connect to your online "
-#| "photos, contacts, mail, and more."
 msgid ""
 "Connecting your accounts will allow you to easily access your email, online "
 "calendar, contacts, documents and photos."
@@ -274,11 +253,10 @@ msgstr ""
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:3
 msgid "You can review your online accounts (and add others) after setup."
 msgstr ""
-"ಸಿದ್ಧತೆಯ ನಂತರ ನೀವು ನಿಮ್ಮ ಆನ್‌ಲೈನ್ ಖಾತೆಗಳನ್ನು ಅವಲೋಕಿಸಬಹುದು (ಮತ್ತು "
-"ಇತರೆಯವುಗಳನ್ನು ಸೇರಿಸಬಹುದು)."
+"ಸಿದ್ಧತೆಯ ನಂತರ ನೀವು ನಿಮ್ಮ ಆನ್‌ಲೈನ್ ಖಾತೆಗಳನ್ನು ಅವಲೋಕಿಸಬಹುದು (ಮತ್ತು ಇತರೆಯವುಗಳನ್ನು "
+"ಸೇರಿಸಬಹುದು)."
 
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:233
-#| msgid "_Previous"
 msgid "Preview"
 msgstr "ಅವಲೋಕಿಸು"
 
@@ -292,7 +270,6 @@ msgstr "ಇನ್ನಷ್ಟು …"
 #. * did not yield any results
 #.
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:309
-#| msgid "No input sources found"
 msgid "No inputs found"
 msgstr "ಯಾವುದೆ ಇನ್‌ಪುಟ್ ಕಂಡುಬಂದಿಲ್ಲ"
 
@@ -302,7 +279,6 @@ msgid "Typing"
 msgstr "ಟೈಪ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ"
 
 #: ../gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui.h:2
-#| msgid "Select keyboard layouts"
 msgid "Select your keyboard layout or an input method."
 msgstr "ಒಂದು ಕೀಲಿಮಣೆ ವಿನ್ಯಾಸಗಳನ್ನು ಅಥವ ಇನ್‌ಪುಟ್ ವಿಧಾನವನ್ನು ಆರಿಸಿ."
 
@@ -315,7 +291,6 @@ msgid "Welcome"
 msgstr "ಸುಸ್ವಾಗತ"
 
 #: ../gnome-initial-setup/pages/language/gis-welcome-widget.c:119
-#| msgid "Welcome"
 msgid "Welcome!"
 msgstr "ಸುಸ್ವಾಗತ!"
 
@@ -342,27 +317,23 @@ msgid ""
 "details, and enable you to access your email, calendar, and contacts. It is "
 "also necessary for enterprise login accounts."
 msgstr ""
-"ಅಂತರಜಾಲದೊಂದಿಗೆ ಸಂಪರ್ಕಹೊಂದುವುದರಿಂದ ನೀವು ನಿಗದಿ ಪಡಿಸಲು, ನಿಮ್ಮ ವಿವರಗಳನ್ನು "
-"ಸೇರಿಸಲು, ಮತ್ತು ನಿಮ್ಮ ವಿಅಂಚೆಯನ್ನು, ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು, ಮತ್ತು ಸಂಪರ್ಕವಿಳಾಸಗಳನ್ನು "
-"ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ಇದು ಎಂಟರ್‌ಪ್ರೈಸ್‌ ಲಾಗಿನ್‌ ಖಾತೆಗಳಿಗೂ ಸಹ "
-"ಅಗತ್ಯವಾಗಿರುತ್ತದೆ."
+"ಅಂತರಜಾಲದೊಂದಿಗೆ ಸಂಪರ್ಕಹೊಂದುವುದರಿಂದ ನೀವು ನಿಗದಿ ಪಡಿಸಲು, ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಸೇರಿಸಲು, "
+"ಮತ್ತು ನಿಮ್ಮ ವಿಅಂಚೆಯನ್ನು, ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು, ಮತ್ತು ಸಂಪರ್ಕವಿಳಾಸಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು "
+"ಸಾಧ್ಯವಾಗುತ್ತದೆ. ಇದು ಎಂಟರ್‌ಪ್ರೈಸ್‌ ಲಾಗಿನ್‌ ಖಾತೆಗಳಿಗೂ ಸಹ ಅಗತ್ಯವಾಗಿರುತ್ತದೆ."
 
 #: ../gnome-initial-setup/pages/network/gis-network-page.ui.h:3
 msgid "No wireless available"
 msgstr "ಯಾವುದೆ ವೈರ್ಲೆಸ್ ಲಭ್ಯವಿಲ್ಲ"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:135
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "ಗುಪ್ತಪದಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ."
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:252
-#| msgid "_Password"
 msgid "Password"
 msgstr "ಗುಪ್ತಪದ"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.ui.h:1
-#| msgid "_Password"
 msgid "Set a Password"
 msgstr "ಒಂದು ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಿ"
 
@@ -465,14 +436,11 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "ಹೆಚ್ಚು ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಚಿಹ್ನೆಗಳನ್ನು ಸೇರಿಸಿ ಪ್ರಯತ್ನಿಸಿ."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr ""
-"ಅಪ್ಪರ್ ಮತ್ತು ಲೋಯರ್ ಕೇಸ್ ಅಕ್ಷರಗಳನ್ನು ಮಿಶ್ರಣಗೊಳಿಸಿ ಮತ್ತು "
-"ಒಂದು ಅಥವ ಎರಡು ಅಂಕಿಗಳನ್ನು ಉಪಯೋಗಿಸಿ."
+"ಅಪ್ಪರ್ ಮತ್ತು ಲೋಯರ್ ಕೇಸ್ ಅಕ್ಷರಗಳನ್ನು ಮಿಶ್ರಣಗೊಳಿಸಿ ಮತ್ತು ಒಂದು ಅಥವ ಎರಡು ಅಂಕಿಗಳನ್ನು "
+"ಉಪಯೋಗಿಸಿ."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:119
 msgctxt "Password hint"
@@ -480,41 +448,35 @@ msgid ""
 "Good password! Adding more letters, numbers and punctuation will make it "
 "stronger."
 msgstr ""
-"ಉತ್ತಮವಾದ ಗುಪ್ತಪದ! ಹೆಚ್ಚಿನ ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ವಿರಾಮಚಿಹ್ನೆಯನ್ನು "
-"ಸೇರಿಸುವುದರಿಂದ ಅದನ್ನು ಇನ್ನಷ್ಟು ಬಲಪಡಿಸಲು ಸಾಧ್ಯ."
+"ಉತ್ತಮವಾದ ಗುಪ್ತಪದ! ಹೆಚ್ಚಿನ ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ವಿರಾಮಚಿಹ್ನೆಯನ್ನು ಸೇರಿಸುವುದರಿಂದ "
+"ಅದನ್ನು ಇನ್ನಷ್ಟು ಬಲಪಡಿಸಲು ಸಾಧ್ಯ."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "ಸದೃಢತೆ: ದುರ್ಬಲ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "ಸದೃಢತೆ: ಕಡಿಮೆ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "ಸದೃಢತೆ: ಮಧ್ಯಮ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "ಸದೃಢತೆ: ಉತ್ತಮ"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "ಸದೃಢತೆ: ಅತ್ಯುತ್ತಮ"
 
 #: ../gnome-initial-setup/pages/region/cc-region-chooser.c:220
-#| msgid "No languages found"
 msgid "No regions found"
 msgstr "ಯಾವುದೆ ಪ್ರದೇಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
 
@@ -524,7 +486,6 @@ msgid "Region"
 msgstr "ಪ್ರದೇಶ"
 
 #: ../gnome-initial-setup/pages/region/gis-region-page.ui.h:2
-#| msgid "Choose Your Location"
 msgid "Choose your country or region."
 msgstr "ನಿಮ್ಮ ದೇಶ ಅಥವ ಪ್ರದೇಶವನ್ನು ಆರಿಸಿ."
 
@@ -562,8 +523,8 @@ msgid ""
 "We think that your time zone is %s. Press Next to continue or search for a "
 "city to manually set the time zone."
 msgstr ""
-"ನಿಮ್ಮ ಕಾಲವಲಯವು %s ಆಗಿದೆ ಎಂಬುದು ನಮ್ಮ ಅಭಿಪ್ರಾಯ. ಮುಂದುವರೆಯಲು ಮುಂದಕ್ಕೆ ಅನ್ನು "
-"ಒತ್ತಿ ಅಥವ ಬೇರೊಂದು ಕಾಲವಲಯಕ್ಕೆ ಬದಲಾಯಿಸಲು ಒಂದು ಊರಿಗಾಗಿ ಹುಡುಕಾಟ ನಡೆಸಿ."
+"ನಿಮ್ಮ ಕಾಲವಲಯವು %s ಆಗಿದೆ ಎಂಬುದು ನಮ್ಮ ಅಭಿಪ್ರಾಯ. ಮುಂದುವರೆಯಲು ಮುಂದಕ್ಕೆ ಅನ್ನು ಒತ್ತಿ ಅಥವ "
+"ಬೇರೊಂದು ಕಾಲವಲಯಕ್ಕೆ ಬದಲಾಯಿಸಲು ಒಂದು ಊರಿಗಾಗಿ ಹುಡುಕಾಟ ನಡೆಸಿ."
 
 #: ../gnome-initial-setup/pages/timezone/gis-timezone-page.c:489
 #: ../gnome-initial-setup/pages/timezone/gis-timezone-page.ui.h:1
@@ -613,7 +574,6 @@ msgstr "ದಯವಿಟ್ಟು ಹತ್ತಿರದ ಊರನ್ನು ಹು
 #~ msgid "Strong"
 #~ msgstr "ಸದೃಢ"
 
-#~| msgid "Other"
 #~ msgctxt "Online Account"
 #~ msgid "Other"
 #~ msgstr "ಇತರೆ"

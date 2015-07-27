@@ -46,7 +46,6 @@ msgid "_Cancel"
 msgstr "रद्द करें (_C)"
 
 #: ../gnome-initial-setup/gnome-initial-setup.c:194
-#| msgid "Force new user mode"
 msgid "Force existing user mode"
 msgstr "मौजूदा उपयोक्ता मोड बलपूर्वक लागू करें"
 
@@ -114,11 +113,6 @@ msgid "Domain Administrator Login"
 msgstr "डोमेन प्रशासक लॉगिन"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page-enterprise.ui.h:9
-#| msgid ""
-#| "In order to use enterprise logins, this computer needs to be\n"
-#| "enrolled in the domain. Please have your network administrator\n"
-#| "type their domain password here, and choose a unique computer\n"
-#| "name for your computer."
 msgid ""
 "In order to use enterprise logins, this computer needs to be enrolled in a "
 "domain. Please have your network administrator type the domain password "
@@ -158,7 +152,6 @@ msgid "_Full Name"
 msgstr "पूरा नाम (_F)"
 
 #: ../gnome-initial-setup/pages/account/gis-account-page.ui.h:1
-#| msgid "Create an Enterprise Account"
 msgid "Set Up _Enterprise Login"
 msgstr "एंटरप्राइज़ लॉगिन सेटअप करें [_E]"
 
@@ -196,27 +189,19 @@ msgstr "%s डोमेन से कनेक्ट नहीं कर सक�
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:245
 #, c-format
-#| msgid "A user with the username '%s' already exists"
 msgid "A user with the username '%s' already exists."
 msgstr "एक उपयोक्ता इस नाम '%s' से पहले से ही मौजूद है."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:249
 #, c-format
-#| msgid "The username is too long"
 msgid "The username is too long."
 msgstr "उपयोक्ता नाम बहुत बड़ा है."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:252
-#| msgid "The username cannot start with a '-'"
 msgid "The username cannot start with a '-'."
 msgstr "उपयोक्ता नाम '-' से प्रारंभ नहीं हो सकता."
 
 #: ../gnome-initial-setup/pages/account/um-utils.c:255
-#| msgid ""
-#| "The username must only consist of:\n"
-#| " ➣ letters from the English alphabet\n"
-#| " ➣ digits\n"
-#| " ➣ any of the characters '.', '-' and '_'"
 msgid ""
 "The username should only consist of lower and upper case letters from a-z, "
 "digits and any of characters '.', '-' and '_'."
@@ -245,7 +230,6 @@ msgid "Add Account"
 msgstr "खाता जोड़ें"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.c:90
-#| msgid "_Cancel"
 msgid "Cancel"
 msgstr "रद्द करें"
 
@@ -254,14 +238,10 @@ msgid "Online Accounts"
 msgstr "ऑनलाइन खाता"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:1
-#| msgid "Online Accounts"
 msgid "Connect Your Online Accounts"
 msgstr "अपने ऑनलाइन खाते कनेक्ट करें"
 
 #: ../gnome-initial-setup/pages/goa/gis-goa-page.ui.h:2
-#| msgid ""
-#| "Adding accounts will allow you to transparently connect to your online "
-#| "photos, contacts, mail, and more."
 msgid ""
 "Connecting your accounts will allow you to easily access your email, online "
 "calendar, contacts, documents and photos."
@@ -274,7 +254,6 @@ msgid "You can review your online accounts (and add others) after setup."
 msgstr "सेटअप के बाद आप अपने ऑनलाइन खाते की समीक्षा कर सकते हैं (तथा अन्य जोड़ सकते हैं)."
 
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:241
-#| msgid "_Previous"
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
@@ -288,7 +267,6 @@ msgstr "अधिक…"
 #. * did not yield any results
 #.
 #: ../gnome-initial-setup/pages/keyboard/cc-input-chooser.c:317
-#| msgid "No input sources found"
 msgid "No inputs found"
 msgstr "कोई इनपुट नहीं मिला"
 
@@ -310,7 +288,6 @@ msgid "Welcome"
 msgstr "सुस्वागतम"
 
 #: ../gnome-initial-setup/pages/language/gis-welcome-widget.c:119
-#| msgid "Welcome"
 msgid "Welcome!"
 msgstr "सुस्वागतम!"
 
@@ -345,17 +322,14 @@ msgid "No wireless available"
 msgstr "कोई बेतार उपलब्ध नहीं है"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:144
-#| msgid "Passwords do not match"
 msgid "The passwords do not match."
 msgstr "शब्दकूट समान नहीं हैं."
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.c:266
-#| msgid "_Password"
 msgid "Password"
 msgstr "शब्दकूट"
 
 #: ../gnome-initial-setup/pages/password/gis-password-page.ui.h:1
-#| msgid "_Password"
 msgid "Set a Password"
 msgstr "कूटशब्द नियत करें"
 
@@ -458,9 +432,6 @@ msgid "Try to add more letters, numbers and symbols."
 msgstr "कोशिश करें कि और अक्षर, अंक तथा चिह्न जोड़ें."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:117
-#| msgid ""
-#| "Try to use at least 8 different characters. Mix upper and lower case and "
-#| "use a number or two."
 msgctxt "Password hint"
 msgid "Mix uppercase and lowercase and use a number or two."
 msgstr "अपरकेस तथा लोअरकेस और एक दो संख्या मिलाकर बनाएं"
@@ -473,37 +444,31 @@ msgid ""
 msgstr "सही कूटशब्द! और अक्षर, अंक तथा विराम चिह्नों को जोड़ने पर यह और शक्तिशाली बनेगा."
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:141
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Weak"
 msgstr "सामर्थ्य: कमजोर"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:145
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Low"
 msgstr "सामर्थ्य: निम्न"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:148
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Medium"
 msgstr "सामर्थ्य: मध्यम [कूटशब्द सामर्थ्य]"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:151
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: Good"
 msgstr "सामर्थ्य: बढ़िया [कूटशब्द सामर्थ्य]"
 
 #: ../gnome-initial-setup/pages/password/pw-utils.c:154
-#| msgid "Strength: %s"
 msgctxt "Password strength"
 msgid "Strength: High"
 msgstr "सामर्थ्य: उच्च [कूटशब्द सामर्थ्य]"
 
 #: ../gnome-initial-setup/pages/region/cc-region-chooser.c:228
-#| msgid "No languages found"
 msgid "No regions found"
 msgstr "कोई क्षेत्र नहीं मिला"
 
@@ -513,7 +478,6 @@ msgid "Region"
 msgstr "क्षेत्र"
 
 #: ../gnome-initial-setup/pages/region/gis-region-page.ui.h:2
-#| msgid "Choose Your Location"
 msgid "Choose your country or region."
 msgstr "अपना देश या क्षेत्र चुनें"
 
@@ -522,7 +486,6 @@ msgstr "अपना देश या क्षेत्र चुनें"
 #. * detect any distribution.
 #: ../gnome-initial-setup/pages/summary/gis-summary-page.c:332
 #, c-format
-#| msgid "_Start using GNOME 3"
 msgid "_Start using %s"
 msgstr "%s का उपयोग कर प्रारंभ करें (_S)"
 
